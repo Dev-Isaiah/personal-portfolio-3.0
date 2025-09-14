@@ -58,15 +58,15 @@
 }
 
 .section-primary-background::before{
-    background-image: url('/assets/images/square-pattern-white-bg.png');
+    background-image: url('https://raw.githubusercontent.com/Dev-Isaiah/personal-portfolio-3.0/refs/heads/main/assets/images/square-pattern-white-bg.png');
 }
 
 .section-accent-background::before{
-   background-image: url('/assets/images/square-pattern-black-bg.png'); 
+   background-image: url('https://raw.githubusercontent.com/Dev-Isaiah/personal-portfolio-3.0/refs/heads/main/assets/images/square-pattern-black-bg.png'); 
 }
 
 .section-secondary-background::before{
-    background-image: url('/assets/images/hero-bg.png');
+    background-image: url('https://raw.githubusercontent.com/Dev-Isaiah/personal-portfolio-3.0/refs/heads/main/assets/images/hero-bg.png');
 }
 
 .flex-center-content{
@@ -546,6 +546,10 @@ footer .footer-column{
   .custom-btn-animated .icon-box .icon svg {
     left: 0; /* reset so arrow is visible */
     transition: none; /* optional: disable the delayed slide animation */
+  }
+
+  .profile-img-container img{
+    filter: grayscale(0);
   }
 
       .description-box-dark-bordered .job-info, .description-box-dark-bordered .job-company-title{
