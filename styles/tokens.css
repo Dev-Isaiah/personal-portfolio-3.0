@@ -1,0 +1,86 @@
+/* Custom Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: "GeomGraphic";
+  src: url(../assets/fonts/geom_graphic_regular-webfont.woff) format("woff"),
+  url(../assets/fonts/geom_graphic_regular-webfont.woff2) format("woff2"),
+  url("../assets/fonts/Geom_Graphic_Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GeomGraphic";
+  src: url(../assets/fonts/geom_graphic_light-webfont.woff) format("woff"),
+  url(../assets/fonts/geom_graphic_light-webfont.woff2) format("woff2"),
+  url("../assets/fonts/Geom_Graphic_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GeomGraphic";
+  src: url(../assets/fonts/geom_graphic_light_italic-webfont.woff) format("woff"),
+  url(../assets/fonts/geom_graphic_light_italic-webfont.woff2) format("woff2"),
+  url("../assets/fonts/Geom_Graphic_Light_Italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Global Variables */
+
+:root{
+
+    /* Font Family */
+    --ff-heading: "GeomGraphic", system-ui, sans-serif;
+    --ff-body: "Oxygen", system-ui, sans-serif;
+
+    /* Colors */
+    --color-primary: #cc1d2d;
+    --color-secondary: #141414;
+    --color-primary-dark: #660F17;
+
+    /* Font Sizes */
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.375rem;
+    --fs-600: 1.75rem;
+    --fs-650: 1.875rem;
+    --fs-700: 2.625rem;
+    --fs-800: 3rem;
+    --fs-900: 3.4375rem;
+
+    /* Line Spacing */
+    --lh-tight: 1.15;
+    --lh-normal: 1.5;
+    --lh-relaxed: 1.6;
+
+    /* Buttons */
+
+    --btn-padding: 0.625rem 1.375rem;
+
+    /** Primary **/
+    --primary-btn-background-color: var(--color-primary);
+    --primary-btn-text-color: #fff;
+    --primary-btn-background-color-hover: #660F17;
+
+    /** Secondary **/
+    --secondary-btn-background-color: #fff;
+    --secondary-btn-text-color: var(--color-secondary);
+
+
+    /* Shadows */
+    --shadow-1: 0 4px 4px rgba(0, 0, 0, 0.4);
+
+    /* Dividers */
+
+    --divider-skew: skewX(-12deg);
+    --divider-thickness: 6px;
+
+    --primary-divider-color: var(--color-primary);
+    --secondary-divider-color: #fff;
+
+    
+}
